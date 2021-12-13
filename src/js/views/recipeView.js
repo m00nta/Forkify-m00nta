@@ -1,4 +1,4 @@
-import { Fraction } from 'fractional.js';
+import { Fraction } from '../../../node_modules/fractional/index.js';
 // const Fraction = require('fractional.js').Fraction;
 import View from './View';
 
