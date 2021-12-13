@@ -1,5 +1,5 @@
-// import { Fraction } from 'fractional';
-const Fraction = require('fractional').Fraction;
+import { Fraction } from 'fractional.js';
+// const Fraction = require('fractional.js').Fraction;
 import View from './View';
 
 const icons = new URL('../../img/icons.svg', import.meta.url);
