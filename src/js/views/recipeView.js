@@ -1,4 +1,4 @@
-import { Fraction } from '../../../node_modules/fractional/index.js';
+// import { Fraction } from 'fractional';
 // const Fraction = require('fractional.js').Fraction;
 import View from './View';
 
@@ -126,9 +126,7 @@ class RecipeView extends View {
         <svg class="recipe__icon">
           <use href="${icons}#icon-check"></use>
         </svg>
-        <div class="recipe__quantity">${
-          ing.quantity ? new Fraction(ing.quantity).toString() : ''
-        }</div>
+        <div class="recipe__quantity">${ing.quantity ? ing.quantity : ''}</div>
         <div class="recipe__description">
           <span class="recipe__unit">${ing.unit}</span>
           ${ing.description}
